@@ -1,6 +1,6 @@
 
 $(()=>{
-	
+
 	window.setTimeout(function(){
 		$('#test1').html('猫のしっぽ');
 		
@@ -8,7 +8,6 @@ $(()=>{
 		$('#test2').attr('src', url);
 		
 		alert('アラートテスト');
-	}, 2000);
-	
+	}, 4000);
 	
 })
